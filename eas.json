@@ -3,11 +3,6 @@
     "version": ">= 3.8.1"
   },
   "build": {
-    "production": {
-      "android": {
-        "buildType": "apk",
-        "credentialsSource": "local" // 👈 این خط، EAS را مجبور به ساخت کلید جدید می کند
-      }
-    }
+    "production": {}
   }
 }
