@@ -6,7 +6,7 @@
     "production": {
       "android": {
         "buildType": "apk",
-        "credentialsSource": "remote"
+        "credentialsSource": "local" // 👈 این خط، EAS را مجبور به ساخت کلید جدید می کند
       }
     }
   }
