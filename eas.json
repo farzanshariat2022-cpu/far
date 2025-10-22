@@ -6,13 +6,8 @@
     "production": {
       "android": {
         "buildType": "apk",
-        "releaseChannel": "production",
-        "credentialsSource": "remote" // 👈 این خط، مشکل را حل می کند
+        "credentialsSource": "remote"
       }
-    },
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal"
     }
   }
 }
