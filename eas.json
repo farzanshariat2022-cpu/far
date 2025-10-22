@@ -3,6 +3,16 @@
     "version": ">= 3.8.1"
   },
   "build": {
-    "production": {}
+    "production": {
+      "android": {
+        "buildType": "apk",
+        "releaseChannel": "production",
+        "credentialsSource": "remote" // 👈 این خط، مشکل را حل می کند
+      }
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    }
   }
 }
